@@ -1,0 +1,35 @@
+name: subguard
+description: "SubGuard - track subscriptions, catch free trials, stop wasting money."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences:
+  flutter_local_notifications:
+  timezone:
+  url_launcher:
+  device_info_plus:
+  android_intent_plus:
+  package_info_plus:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  flutter_launcher_icons:
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#5E2DE6"
+  adaptive_icon_foreground: "assets/icon/foreground.png"
+  remove_alpha_ios: true

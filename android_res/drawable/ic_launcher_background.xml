@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SubGuard purple gradient -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="315"
+        android:startColor="#FF8C5CFF"
+        android:centerColor="#FF5E2DE6"
+        android:endColor="#FF3D16B5"
+        android:type="linear" />
+</shape>
